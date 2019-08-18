@@ -1,0 +1,87 @@
+.cell {
+	width: 20px;
+	height: 20px;
+	position: relative;
+	float: left;
+	border: 0;
+	margin: 0;
+}
+
+h2 {
+	font-family: "Courier New";
+	text-align: center;
+}
+
+p {
+	font-family: "Courier New";
+	text-align: center;
+}
+
+body {
+	background-colour: black;
+	background-repeat: repeat;
+}
+
+#snake {
+	margin: 0 auto;
+	border-radius: 5px;
+	border: 5px solid grey;
+    	background-color: darkgrey;
+	background-repeat: repeat;
+}
+
+.snake-head {
+	background-image: url("../images/snake_head.png");
+	background-repeat: round;
+}
+
+.snake-head-Left {
+	transform: rotate(180deg);
+}
+
+.snake-head-Right {
+	transform: rotate(0deg);
+}
+
+.snake-head-Up {
+	transform: rotate(270deg);
+}
+
+.snake-head-Down {
+	transform: rotate(90deg);
+}
+
+.snake {
+	background-image: url("../images/snake.png");
+	background-repeat: round;
+}
+
+.treat-green {
+    background-color: green;
+	border-radius: 25px;
+	background-repeat: round;
+}
+
+.treat-yellow{
+	background-color: yellow;
+	border-radius: 25px;
+	background-repeat: round;
+}
+
+.treat-orange {
+	background-color: orange;
+	border-radius: 25px;
+	background-repeat: round;
+}
+
+.treat-blue {
+	background-color: blue;
+	border-radius: 25px;
+	background-repeat: round;
+}
+
+.treat-red {
+	background-color: red;
+	border-radius: 25px;
+	background-repeat: round;
+}
